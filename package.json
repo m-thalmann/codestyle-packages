@@ -9,12 +9,12 @@
   },
   "devDependencies": {
     "@nx/js": "18.0.5",
+    "esbuild": "^0.19.2",
     "nx": "18.0.5",
     "prettier": "^3.2.5",
     "verdaccio": "^5.0.4"
   },
   "workspaces": [
     "packages/*"
-  ],
-  "dependencies": {}
+  ]
 }

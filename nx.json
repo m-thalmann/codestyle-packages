@@ -1,4 +1,22 @@
 {
   "extends": "nx/presets/npm.json",
-  "$schema": "./node_modules/nx/schemas/nx-schema.json"
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "targetDefaults": {},
+  "release": {
+    "projects": ["*", "!codestyle-packages"],
+    "projectsRelationship": "independent",
+    "version": {
+      "conventionalCommits": true
+    },
+    "git": {
+      "commitMessage": "chore(release): release new versions of packages"
+    },
+    "changelog": {
+      "projectChangelogs": {
+        "renderOptions": {
+          "authors": false
+        }
+      }
+    }
+  }
 }

@@ -7,8 +7,13 @@
   ],
   "author": "Matthias Thalmann (https://github.com/m-thalmann)",
   "license": "MIT",
-  "main": "index.js",
-  "scripts": {},
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node esbuild.js"
+  },
   "peerDependencies": {
     "prettier": "^3.2.5"
   },
