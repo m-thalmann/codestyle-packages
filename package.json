@@ -5,11 +5,17 @@
   "scripts": {
     "start-local-registry": "node tools/scripts/start-local-registry",
     "format-check": "prettier --ignore-unknown --check .",
-    "format": "prettier --ignore-unknown --write ."
+    "format": "prettier --ignore-unknown --write .",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*": "prettier --ignore-unknown --write"
   },
   "devDependencies": {
     "@nx/js": "18.0.5",
     "esbuild": "^0.19.2",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
     "nx": "18.0.5",
     "prettier": "^3.2.5",
     "verdaccio": "^5.0.4"
