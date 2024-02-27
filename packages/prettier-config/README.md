@@ -1,4 +1,4 @@
-# Prettier Config
+# @m-thalmann/prettier-config
 
 This package provides a shareable config for the [Prettier](https://prettier.io) code formatter.
 

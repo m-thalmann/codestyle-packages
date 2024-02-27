@@ -1,0 +1,23 @@
+{
+  "name": "@m-thalmann/eslint-config-base",
+  "version": "0.0.0",
+  "description": "A package for basic ESLint code style rules",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Matthias Thalmann (https://github.com/m-thalmann)",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node esbuild.js"
+  },
+  "peerDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}

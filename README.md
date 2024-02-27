@@ -6,6 +6,8 @@ This repository contains packages for various codestyle and linting tools:
 
 ## Development setup
 
+When setting up the repository run the `nx run-many -t build` command to build the packages. This is required in order for the Prettier and ESLint configs to work properly.
+
 To test these packages you can use the `npm run start-local-registry` command. This will start a local NPM registry and set it as the configured one for the current workspace. Any packages you publish, will be published to that registry.
 
 You can publish the packages using the `nx release publish` command.

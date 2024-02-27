@@ -4,16 +4,23 @@
   "private": true,
   "scripts": {
     "start-local-registry": "node tools/scripts/start-local-registry",
+    "lint": "eslint --max-warnings=0 .",
     "format-check": "prettier --ignore-unknown --check .",
     "format": "prettier --ignore-unknown --write .",
     "prepare": "husky"
   },
   "lint-staged": {
-    "*": "prettier --ignore-unknown --write"
+    "*": [
+      "eslint --max-warnings=0 --no-warn-ignored",
+      "prettier --ignore-unknown --write"
+    ]
   },
   "devDependencies": {
     "@nx/js": "18.0.5",
     "esbuild": "^0.19.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^14.0.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "nx": "18.0.5",
