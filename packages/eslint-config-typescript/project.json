@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-base",
+  "name": "eslint-config-typescript",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/eslint-config-base",
+  "sourceRoot": "packages/eslint-config-typescript",
   "projectType": "library",
   "tags": ["eslint-config", "linter"]
 }

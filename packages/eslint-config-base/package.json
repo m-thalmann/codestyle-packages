@@ -14,10 +14,10 @@
   "scripts": {
     "build": "node esbuild.js"
   },
-  "peerDependencies": {
+  "devDependencies": {
     "eslint": "^8.56.0"
   },
-  "devDependencies": {
+  "peerDependencies": {
     "eslint": "^8.56.0"
   }
 }

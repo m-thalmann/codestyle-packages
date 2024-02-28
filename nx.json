@@ -5,6 +5,7 @@
   "release": {
     "projects": ["*", "!codestyle-packages"],
     "projectsRelationship": "independent",
+    "releaseTagPattern": "{projectName}/{version}",
     "version": {
       "conventionalCommits": true
     },

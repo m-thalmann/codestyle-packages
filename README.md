@@ -3,6 +3,8 @@
 This repository contains packages for various codestyle and linting tools:
 
 - [Prettier Config](packages/prettier-config/README.md)
+- [ESLint Config Base](packages/eslint-config-base/README.md)
+- [ESLint Config TypeScript](packages/eslint-config-typescript/README.md)
 
 ## Development setup
 
@@ -12,9 +14,11 @@ To test these packages you can use the `npm run start-local-registry` command. T
 
 You can publish the packages using the `nx release publish` command.
 
-If you want to install these locally published packages you can simply copy the generated `.npmrc` file to your target workspace and install the packages as you would normally or use the `--registry <registry>` flag:
+If you want to install these locally published packages you can simply use the `--registry <registry>` flag:
 
 `npm i -D --registry http://localhost:4873 <package>`
+
+Alternatively you can copy the generated `.npmrc` file to your target workspace and install the packages as you would normally.
 
 ## License
 

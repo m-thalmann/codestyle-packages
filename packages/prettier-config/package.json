@@ -14,10 +14,10 @@
   "scripts": {
     "build": "node esbuild.js"
   },
-  "peerDependencies": {
+  "devDependencies": {
     "prettier": "^3.2.5"
   },
-  "devDependencies": {
+  "peerDependencies": {
     "prettier": "^3.2.5"
   }
 }
