@@ -1,0 +1,29 @@
+{
+  "name": "@m-thalmann/eslint-config-rxjs",
+  "version": "0.0.0",
+  "description": "A package for RxJS ESLint code style rules",
+  "keywords": [
+    "eslint",
+    "rxjs"
+  ],
+  "author": "Matthias Thalmann (https://github.com/m-thalmann)",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node esbuild.js"
+  },
+  "dependencies": {
+    "@m-thalmann/eslint-config-typescript": "^0.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-rxjs": "^5.0.3"
+  },
+  "peerDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-rxjs": "^5.0.3"
+  }
+}

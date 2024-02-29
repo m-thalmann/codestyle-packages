@@ -5,7 +5,7 @@
   "scripts": {
     "start-local-registry": "node tools/scripts/start-local-registry",
     "lint": "eslint --max-warnings=0 .",
-    "format-check": "prettier --ignore-unknown --check .",
+    "format:check": "prettier --ignore-unknown --check .",
     "format": "prettier --ignore-unknown --write .",
     "prepare": "husky"
   },

@@ -62,7 +62,7 @@ module.exports = {
 };
 ```
 
-> [!Important]
+> [!Tip]
 > When using flat config files with VSCode for the first time you need to make sure to enable the `eslint.experimental.useFlatConfig` setting
 
 ## License

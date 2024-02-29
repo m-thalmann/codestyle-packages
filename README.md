@@ -5,6 +5,7 @@ This repository contains packages for various codestyle and linting tools:
 - [Prettier Config](packages/prettier-config/README.md)
 - [ESLint Config Base](packages/eslint-config-base/README.md)
 - [ESLint Config TypeScript](packages/eslint-config-typescript/README.md)
+- [ESLint Config RxJS](packages/eslint-config-rxjs/README.md)
 
 ## Development setup
 

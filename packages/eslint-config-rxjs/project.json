@@ -1,0 +1,7 @@
+{
+  "name": "eslint-config-rxjs",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/eslint-config-rxjs",
+  "projectType": "library",
+  "tags": ["eslint-config", "linter"]
+}
