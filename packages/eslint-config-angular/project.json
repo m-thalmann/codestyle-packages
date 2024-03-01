@@ -1,0 +1,7 @@
+{
+  "name": "eslint-config-angular",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/eslint-config-angular",
+  "projectType": "library",
+  "tags": ["eslint-config", "linter"]
+}

@@ -33,7 +33,7 @@ const baseConfig = require('@m-thalmann/eslint-config-base');
 // only if you use the prettier formatter
 const prettierConfig = require('eslint-config-prettier');
 
-module.exports = {
+module.exports = [
   {
     // add ignored paths
     ignores: ['**/dist'],
@@ -59,7 +59,7 @@ module.exports = {
   prettierConfig,
 
   // ... override any project-specific settings
-};
+];
 ```
 
 > [!Tip]

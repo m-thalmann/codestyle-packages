@@ -21,17 +21,19 @@ Add the config to your `eslint.config.js` file:
 ```javascript
 // ...
 
-const rxjsConfig = require('eslint-config-rxjs');
+const rxjsConfig = require('@m-thalmann/eslint-config-rxjs');
 
-module.exports = {
+module.exports = [
   // ... other configurations
+
+  // setup typescript usage!
 
   ...rxjsConfig,
 
   // if you are using Prettier put it's config here
 
   // ... override any project-specific settings
-};
+];
 ```
 
 > [!Important]
