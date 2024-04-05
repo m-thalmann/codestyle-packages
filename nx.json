@@ -1,22 +1,14 @@
 {
   "extends": "nx/presets/npm.json",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "targetDefaults": {},
-  "release": {
-    "projects": ["*", "!codestyle-packages"],
-    "projectsRelationship": "independent",
-    "releaseTagPattern": "{projectName}/{version}",
+  "targetDefaults": {
     "version": {
-      "conventionalCommits": true
-    },
-    "git": {
-      "commitMessage": "chore(release): release new versions of packages"
-    },
-    "changelog": {
-      "projectChangelogs": {
-        "renderOptions": {
-          "authors": false
-        }
+      "dependsOn": ["^version", "build"],
+      "cache": false,
+      "options": {
+        "skipRootChangelog": true,
+        "tagPrefix": "{projectName}/",
+        "trackDeps": true
       }
     }
   }

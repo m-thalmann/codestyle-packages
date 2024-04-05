@@ -3,5 +3,10 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/eslint-config-base",
   "projectType": "library",
-  "tags": ["eslint-config", "linter"]
+  "tags": ["eslint-config", "linter"],
+  "targets": {
+    "version": {
+      "executor": "@jscutlery/semver:version"
+    }
+  }
 }

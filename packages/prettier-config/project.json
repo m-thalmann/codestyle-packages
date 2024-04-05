@@ -3,5 +3,10 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/prettier-config",
   "projectType": "library",
-  "tags": ["prettier-config", "formatter"]
+  "tags": ["prettier-config", "formatter"],
+  "targets": {
+    "version": {
+      "executor": "@jscutlery/semver:version"
+    }
+  }
 }
