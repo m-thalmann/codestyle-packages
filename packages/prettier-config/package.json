@@ -7,6 +7,10 @@
   ],
   "author": "Matthias Thalmann (https://github.com/m-thalmann)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m-thalmann/codestyle-packages"
+  },
   "publishConfig": {
     "access": "public"
   },

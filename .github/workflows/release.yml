@@ -14,10 +14,19 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set up Git
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Install Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          registry-url: https://registry.npmjs.org/
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
 
       - name: Install dependencies
         run: npm install
@@ -36,7 +45,9 @@ jobs:
         shell: bash
 
       - name: Push release commit to GitHub
-        run: git push origin main
+        run: |
+          git push origin main
+          git push --follow-tags
         shell: bash
 
       - name: Publish packages
@@ -44,3 +55,4 @@ jobs:
         shell: bash
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
