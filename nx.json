@@ -10,7 +10,7 @@
       "conventionalCommits": true
     },
     "git": {
-      "commitMessage": "chore(release): release new versions of packages"
+      "commitMessage": "chore(release): release new versions of packages [skip ci]"
     },
     "changelog": {
       "projectChangelogs": {

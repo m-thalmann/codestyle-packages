@@ -43,7 +43,7 @@ module.exports = {
   'max-depth': ['error', { max: 4 }],
 
   // https://eslint.org/docs/latest/rules/max-lines
-  'max-lines': ['error', { max: 300, skipBlankLines: true, skipComments: true }],
+  'max-lines': ['warn', { max: 300, skipBlankLines: true, skipComments: true }],
 
   // https://eslint.org/docs/latest/rules/no-case-declarations
   'no-case-declarations': ['error'],
@@ -85,7 +85,7 @@ module.exports = {
   'no-magic-numbers': [
     'warn',
     {
-      ignore: [-1, 0, 1, 1000],
+      ignore: [-1, 0, 1, 100, 1000],
       ignoreArrayIndexes: false,
       ignoreDefaultValues: false,
       ignoreClassFieldInitialValues: false,
