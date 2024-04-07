@@ -1,6 +1,6 @@
 {
   "name": "@m-thalmann/eslint-config-typescript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A package for TypeScript ESLint code style rules",
   "keywords": [
     "eslint",
@@ -23,7 +23,7 @@
     "build": "node esbuild.js"
   },
   "dependencies": {
-    "@m-thalmann/eslint-config-base": "^0.1.0"
+    "@m-thalmann/eslint-config-base": "^0.1.1"
   },
   "devDependencies": {
     "eslint": "^8.56.0",

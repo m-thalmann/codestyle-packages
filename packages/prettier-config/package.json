@@ -1,6 +1,6 @@
 {
   "name": "@m-thalmann/prettier-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A package for Prettier config settings",
   "keywords": [
     "prettier"
