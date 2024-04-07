@@ -7,6 +7,9 @@
   ],
   "author": "Matthias Thalmann (https://github.com/m-thalmann)",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.js",
   "files": [
     "dist"
