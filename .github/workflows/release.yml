@@ -1,0 +1,46 @@
+name: Release
+
+on: workflow_dispatch
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+        shell: bash
+
+      - name: Print Environment Info
+        run: npx nx report
+        shell: bash
+
+      - name: Build packages
+        run: npx nx run-many --target=build --all
+        shell: bash
+
+      - name: Release and publish packages
+        run: npx nx release --skip-publish
+        shell: bash
+
+      - name: Push release commit to GitHub
+        run: git push origin main
+        shell: bash
+
+      - name: Publish packages
+        run: npx nx release publish
+        shell: bash
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
