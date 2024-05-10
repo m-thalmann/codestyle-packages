@@ -16,6 +16,9 @@ module.exports = {
     },
   ],
 
+  // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/contextual-decorator.md
+  '@angular-eslint/contextual-decorator': ['warn'],
+
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/directive-selector.md
   '@angular-eslint/directive-selector': [
     'error',
@@ -25,6 +28,12 @@ module.exports = {
       style: 'camelCase',
     },
   ],
+
+  // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-conflicting-lifecycle.md
+  '@angular-eslint/no-conflicting-lifecycle': ['error'],
+
+  // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-duplicates-in-metadata-arrays.md
+  '@angular-eslint/no-duplicates-in-metadata-arrays': ['error'],
 
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-host-metadata-property.md
   '@angular-eslint/no-host-metadata-property': ['error', { allowStatic: true }],
@@ -50,8 +59,8 @@ module.exports = {
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-output-readonly.md
   '@angular-eslint/prefer-output-readonly': ['warn'],
 
-  // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-standalone-component.md
-  '@angular-eslint/prefer-standalone-component': ['warn'],
+  // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-standalone.md
+  '@angular-eslint/prefer-standalone': ['warn'],
 
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/relative-url-prefix.md
   '@angular-eslint/relative-url-prefix': ['error'],
