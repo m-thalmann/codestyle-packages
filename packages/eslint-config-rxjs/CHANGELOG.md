@@ -1,3 +1,10 @@
+## 0.2.0 (2024-05-10)
+
+
+### 🚀 Features
+
+- **eslint-config-rxjs:** add missing rules
+
 ## 0.1.1 (2024-04-07)
 
 

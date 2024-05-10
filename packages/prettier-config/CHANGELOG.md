@@ -1,3 +1,15 @@
+# 1.0.0 (2024-05-10)
+
+
+### 🚀 Features
+
+- ⚠️  **prettier-config:** add php config and merge function
+
+
+#### ⚠️  Breaking Changes
+
+- ⚠️  **prettier-config:** add php config and merge function
+
 ## 0.1.1 (2024-04-07)
 
 

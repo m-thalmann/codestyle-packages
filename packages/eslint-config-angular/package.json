@@ -1,6 +1,6 @@
 {
   "name": "@m-thalmann/eslint-config-angular",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A package for Angular ESLint code style rules",
   "keywords": [
     "eslint",
@@ -23,7 +23,7 @@
     "build": "node esbuild.js"
   },
   "dependencies": {
-    "@m-thalmann/eslint-config-rxjs": "^0.1.1",
+    "@m-thalmann/eslint-config-rxjs": "^0.2.0",
     "@m-thalmann/eslint-config-typescript": "^0.1.1"
   },
   "devDependencies": {
