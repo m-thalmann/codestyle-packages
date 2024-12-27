@@ -106,10 +106,6 @@ module.exports = {
   // https://typescript-eslint.io/rules/no-floating-promises
   '@typescript-eslint/no-floating-promises': ['off'],
 
-  // https://typescript-eslint.io/rules/no-implied-eval/
-  'no-implied-eval': ['off'],
-  '@typescript-eslint/no-implied-eval': ['error'],
-
   // https://typescript-eslint.io/rules/no-loop-func/
   'no-loop-func': ['off'],
   '@typescript-eslint/no-loop-func': ['error'],
@@ -134,50 +130,13 @@ module.exports = {
   // https://typescript-eslint.io/rules/no-misused-promises/
   '@typescript-eslint/no-misused-promises': ['warn', { checksVoidReturn: false }],
 
-  // https://typescript-eslint.io/rules/no-mixed-enums/
-  '@typescript-eslint/no-mixed-enums': ['error'],
-
   // https://typescript-eslint.io/rules/no-throw-literal/
   'no-throw-literal': ['off'],
   '@typescript-eslint/no-throw-literal': ['error'],
 
-  // https://typescript-eslint.io/rules/no-non-null-asserted-nullish-coalescing/
-  '@typescript-eslint/no-non-null-asserted-nullish-coalescing': ['error'],
-
-  // https://typescript-eslint.io/rules/no-non-null-asserted-optional-chain/
-  '@typescript-eslint/no-non-null-asserted-optional-chain': ['error'],
-
-  // https://typescript-eslint.io/rules/no-unnecessary-boolean-literal-compare/
-  '@typescript-eslint/no-unnecessary-boolean-literal-compare': ['error'],
-
-  // https://typescript-eslint.io/rules/no-unnecessary-condition/
-  '@typescript-eslint/no-unnecessary-condition': ['error'],
-
-  // https://typescript-eslint.io/rules/no-unsafe-call/
-  '@typescript-eslint/no-unsafe-call': ['error'],
-
-  // https://typescript-eslint.io/rules/no-unsafe-declaration-merging/
-  '@typescript-eslint/no-unsafe-declaration-merging': ['error'],
-
-  // https://typescript-eslint.io/rules/no-unsafe-enum-comparison/
-  '@typescript-eslint/no-unsafe-enum-comparison': ['warn'],
-
-  // https://typescript-eslint.io/rules/no-unsafe-member-access/
-  '@typescript-eslint/no-unsafe-member-access': ['error'],
-
-  // https://typescript-eslint.io/rules/no-unsafe-return/
-  '@typescript-eslint/no-unsafe-return': ['error'],
-
-  // https://typescript-eslint.io/rules/no-unsafe-unary-minus/
-  '@typescript-eslint/no-unsafe-unary-minus': ['error'],
-
   // https://typescript-eslint.io/rules/no-unused-expressions/
   'no-unused-expressions': ['off'],
   '@typescript-eslint/no-unused-expressions': ['error', baseNoUnusedExpressionsConfig],
-
-  // https://typescript-eslint.io/rules/no-useless-constructor/
-  'no-useless-constructor': ['off'],
-  '@typescript-eslint/no-useless-constructor': ['warn'],
 
   // https://typescript-eslint.io/rules/no-useless-template-literals/
   '@typescript-eslint/no-useless-template-literals': ['error'],
@@ -188,15 +147,8 @@ module.exports = {
   // https://typescript-eslint.io/rules/prefer-includes/
   '@typescript-eslint/prefer-includes': ['warn'],
 
-  // https://typescript-eslint.io/rules/prefer-literal-enum-member/
-  '@typescript-eslint/prefer-literal-enum-member': ['error'],
-
   // https://typescript-eslint.io/rules/prefer-optional-chain/
   '@typescript-eslint/prefer-optional-chain': ['error'],
-
-  // https://typescript-eslint.io/rules/prefer-promise-reject-errors/
-  'prefer-promise-reject-errors': ['off'],
-  '@typescript-eslint/prefer-promise-reject-errors': ['error'],
 
   // https://typescript-eslint.io/rules/prefer-string-starts-ends-with/
   '@typescript-eslint/prefer-string-starts-ends-with': ['warn'],
@@ -209,9 +161,6 @@ module.exports = {
 
   // https://typescript-eslint.io/rules/require-await/
   '@typescript-eslint/require-await': ['off'],
-
-  // https://typescript-eslint.io/rules/restrict-plus-operands/
-  '@typescript-eslint/restrict-plus-operands': ['warn'],
 
   // https://typescript-eslint.io/rules/return-await/
   'no-return-await': ['off'],
@@ -228,10 +177,4 @@ module.exports = {
 
   // https://typescript-eslint.io/rules/switch-exhaustiveness-check/
   '@typescript-eslint/switch-exhaustiveness-check': ['warn'],
-
-  // https://typescript-eslint.io/rules/unbound-method/
-  '@typescript-eslint/unbound-method': ['error'],
-
-  // https://typescript-eslint.io/rules/unified-signatures/
-  '@typescript-eslint/unified-signatures': ['error'],
 };

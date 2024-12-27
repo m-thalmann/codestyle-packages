@@ -21,15 +21,9 @@ module.exports = {
   'init-declarations': ['off'],
   '@typescript-eslint/init-declarations': ['warn'],
 
-  // https://typescript-eslint.io/rules/no-array-delete/
-  '@typescript-eslint/no-array-delete': ['error'],
-
   // https://typescript-eslint.io/rules/no-shadow/
   'no-shadow': ['off'],
   '@typescript-eslint/no-shadow': ['warn'],
-
-  // https://typescript-eslint.io/rules/no-this-alias/
-  '@typescript-eslint/no-this-alias': ['error'],
 
   // TODO: add/update rule for no-unused-private-class-members when https://github.com/typescript-eslint/typescript-eslint/issues/4571 is resolved
 

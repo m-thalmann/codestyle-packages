@@ -4,14 +4,14 @@ const variableRules = require('./rules/variables');
 
 const tsEslint = require('typescript-eslint');
 
-/** @type {import("eslint").Linter.FlatConfig[]} */
+/** @type {import("eslint").Linter.Config[]} */
 module.exports = tsEslint.config(
   {
     files: ['**/*.ts', '**/*.tsx', '**/*.mts', '**/*.cts'],
     plugins: {
       '@typescript-eslint': tsEslint.plugin,
     },
-    extends: [...tsEslint.configs.recommendedTypeChecked],
+    extends: [...tsEslint.configs.strictTypeChecked],
     languageOptions: {
       parser: tsEslint.parser,
     },
