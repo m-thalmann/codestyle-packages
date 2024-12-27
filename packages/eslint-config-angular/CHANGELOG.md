@@ -1,3 +1,14 @@
+## 0.3.0 (2024-12-27)
+
+### 🚀 Features
+
+- **eslint:** upgrade eslint to v9 and update angular eslint lib ([bbfacff](https://github.com/m-thalmann/codestyle-packages/commit/bbfacff))
+
+### 🧱 Updated Dependencies
+
+- Updated eslint-config-typescript to 0.2.0
+- Updated eslint-config-rxjs to 0.3.0
+
 ## 0.2.0 (2024-05-10)
 
 

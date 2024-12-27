@@ -1,3 +1,13 @@
+## 0.3.0 (2024-12-27)
+
+### 🚀 Features
+
+- **eslint:** upgrade eslint to v9 and switch rxjs eslint library ([01fe2b4](https://github.com/m-thalmann/codestyle-packages/commit/01fe2b4))
+
+### 🧱 Updated Dependencies
+
+- Updated eslint-config-typescript to 0.2.0
+
 ## 0.2.0 (2024-05-10)
 
 

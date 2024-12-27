@@ -1,3 +1,9 @@
+## 0.2.0 (2024-12-27)
+
+### 🚀 Features
+
+- **eslint:** upgrade eslint to v9 ([f27371d](https://github.com/m-thalmann/codestyle-packages/commit/f27371d))
+
 ## 0.1.1 (2024-04-07)
 
 

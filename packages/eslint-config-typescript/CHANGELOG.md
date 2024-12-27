@@ -1,3 +1,13 @@
+## 0.2.0 (2024-12-27)
+
+### 🚀 Features
+
+- **eslint:** upgrade eslint to v9 and update typescript eslint package ([6274ac5](https://github.com/m-thalmann/codestyle-packages/commit/6274ac5))
+
+### 🧱 Updated Dependencies
+
+- Updated eslint-config-base to 0.2.0
+
 ## 0.1.1 (2024-04-07)
 
 
