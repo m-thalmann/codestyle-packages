@@ -1,13 +1,15 @@
 # @m-thalmann/eslint-config-rxjs
 
-> [!NOTE]  
+> [!NOTE]
 > This package only supports the new [flat config format](https://eslint.org/docs/latest/use/configure/configuration-files-new)
 
-This package provides a base configuration for the [RxJS ESLint Plugin](https://github.com/cartant/eslint-plugin-rxjs)
+This package provides a base configuration for the [RxJS ESLint Plugin](https://github.com/DaveMBush/eslint-plugin-rxjs).
+
+**Note:** We switched over from https://github.com/cartant/eslint-plugin-rxjs since it seems to be abandoned and not compatible with eslint v9+.
 
 ## Installation
 
-> [!NOTE]  
+> [!NOTE]
 > You should also install the `@m-thalmann/eslint-config-base` package and set it up like described in it's README
 
 ```bash

@@ -1,14 +1,15 @@
-const rxjsPlugin = require('eslint-plugin-rxjs');
+const rxjsPlugin = require('@smarttools/eslint-plugin-rxjs');
 
-/** @type {import("eslint").Linter.FlatConfig[]} */
+/** @type {import("eslint").Linter.Config[]} */
 module.exports = [
+  rxjsPlugin.configs.recommended,
   {
     files: ['**/*.ts', '**/*.tsx'],
     plugins: {
       rxjs: rxjsPlugin,
     },
     rules: {
-      // https://github.com/cartant/eslint-plugin-rxjs/blob/main/docs/rules/finnish.md
+      // https://github.com/DaveMBush/eslint-plugin-rxjs/blob/main/packages/eslint-plugin-rxjs/docs/rules/finnish.md
       'rxjs/finnish': [
         'warn',
         {
@@ -25,40 +26,19 @@ module.exports = [
         },
       ],
 
-      // https://github.com/cartant/eslint-plugin-rxjs/blob/main/docs/rules/no-async-subscribe.md
-      'rxjs/no-async-subscribe': ['error'],
-
-      // https://github.com/cartant/eslint-plugin-rxjs/blob/main/docs/rules/no-create.md
-      'rxjs/no-create': ['error'],
-
-      // https://github.com/cartant/eslint-plugin-rxjs/blob/main/docs/rules/no-exposed-subjects.md
+      // https://github.com/DaveMBush/eslint-plugin-rxjs/blob/main/packages/eslint-plugin-rxjs/docs/rules/no-exposed-subjects.md
       'rxjs/no-exposed-subjects': ['warn', { allowProtected: true }],
 
-      // https://github.com/cartant/eslint-plugin-rxjs/blob/main/docs/rules/no-ignored-takewhile-value.md
-      'rxjs/no-ignored-takewhile-value': ['warn'],
+      // https://github.com/DaveMBush/eslint-plugin-rxjs/blob/main/packages/eslint-plugin-rxjs/docs/rules/no-ignored-observable.md
+      'rxjs/no-ignored-observable': ['warn'],
 
-      // https://github.com/cartant/eslint-plugin-rxjs/blob/main/docs/rules/no-index.md
-      'rxjs/no-index': ['error'],
-
-      // https://github.com/cartant/eslint-plugin-rxjs/blob/main/docs/rules/no-internal.md
-      'rxjs/no-internal': ['error'],
-
-      // https://github.com/cartant/eslint-plugin-rxjs/blob/main/docs/rules/no-nested-subscribe.md
-      'rxjs/no-nested-subscribe': ['error'],
-
-      // https://github.com/cartant/eslint-plugin-rxjs/blob/main/docs/rules/no-sharereplay.md
-      'rxjs/no-sharereplay': ['warn', { allowConfig: true }],
-
-      // https://github.com/cartant/eslint-plugin-rxjs/blob/main/docs/rules/no-subject-value.md
+      // https://github.com/DaveMBush/eslint-plugin-rxjs/blob/main/packages/eslint-plugin-rxjs/docs/rules/no-subject-value.md
       'rxjs/no-subject-value': ['warn'],
 
-      // https://github.com/cartant/eslint-plugin-rxjs/blob/main/docs/rules/no-unbound-methods.md
-      'rxjs/no-unbound-methods': ['error'],
+      // https://github.com/DaveMBush/eslint-plugin-rxjs/blob/main/packages/eslint-plugin-rxjs/docs/rules/no-subscribe-handlers.md
+      'rxjs/no-subscribe-handlers': ['warn'],
 
-      // https://github.com/cartant/eslint-plugin-rxjs/blob/main/docs/rules/no-unsafe-subject-next.md
-      'rxjs/no-unsafe-subject-next': ['warn'],
-
-      // https://github.com/cartant/eslint-plugin-rxjs/blob/main/docs/rules/no-unsafe-takeuntil.md
+      // https://github.com/DaveMBush/eslint-plugin-rxjs/blob/main/packages/eslint-plugin-rxjs/docs/rules/no-unsafe-takeuntil.md
       'rxjs/no-unsafe-takeuntil': [
         'error',
         {
@@ -66,7 +46,7 @@ module.exports = [
         },
       ],
 
-      // https://github.com/cartant/eslint-plugin-rxjs/blob/main/docs/rules/throw-error.md
+      // https://github.com/DaveMBush/eslint-plugin-rxjs/blob/main/packages/eslint-plugin-rxjs/docs/rules/throw-error.md
       'rxjs/throw-error': ['warn'],
     },
   },
