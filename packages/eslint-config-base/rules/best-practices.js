@@ -3,14 +3,8 @@ module.exports = {
   // https://eslint.org/docs/latest/rules/no-await-in-loop
   'no-await-in-loop': ['warn'],
 
-  // https://eslint.org/docs/latest/rules/no-debugger
-  'no-debugger': ['warn'],
-
   // https://eslint.org/docs/latest/rules/no-duplicate-imports
   'no-duplicate-imports': ['error'],
-
-  // https://eslint.org/docs/latest/rules/no-fallthrough
-  'no-fallthrough': ['error'],
 
   // https://eslint.org/docs/latest/rules/arrow-body-style
   'arrow-body-style': ['warn', 'as-needed'],
@@ -44,9 +38,6 @@ module.exports = {
 
   // https://eslint.org/docs/latest/rules/max-lines
   'max-lines': ['warn', { max: 300, skipBlankLines: true, skipComments: true }],
-
-  // https://eslint.org/docs/latest/rules/no-case-declarations
-  'no-case-declarations': ['error'],
 
   // https://eslint.org/docs/latest/rules/no-console
   'no-console': ['warn'],
@@ -101,9 +92,6 @@ module.exports = {
 
   // https://eslint.org/docs/latest/rules/no-nested-ternary
   'no-nested-ternary': ['error'],
-
-  // https://eslint.org/docs/latest/rules/no-new-native-nonconstructor
-  'no-new-native-nonconstructor': ['warn'],
 
   // https://eslint.org/docs/latest/rules/no-new-wrappers
   'no-new-wrappers': ['warn'],

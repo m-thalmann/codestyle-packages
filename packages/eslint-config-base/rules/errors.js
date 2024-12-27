@@ -3,15 +3,6 @@ module.exports = {
   // https://eslint.org/docs/latest/rules/array-callback-return
   'array-callback-return': ['warn'],
 
-  // https://eslint.org/docs/latest/rules/constructor-super
-  'constructor-super': ['error'],
-
-  // https://eslint.org/docs/latest/rules/no-cond-assign
-  'no-cond-assign': ['error'],
-
-  // https://eslint.org/docs/latest/rules/no-loss-of-precision
-  'no-loss-of-precision': ['error'],
-
   // https://eslint.org/docs/latest/rules/no-self-compare
   'no-self-compare': ['error'],
 
@@ -21,14 +12,8 @@ module.exports = {
   // https://eslint.org/docs/latest/rules/no-unmodified-loop-condition
   'no-unmodified-loop-condition': ['error'],
 
-  // https://eslint.org/docs/latest/rules/no-unreachable
-  'no-unreachable': ['error'],
-
   // https://eslint.org/docs/latest/rules/no-unreachable-loop
   'no-unreachable-loop': ['error'],
-
-  // https://eslint.org/docs/latest/rules/no-unsafe-finally
-  'no-unsafe-finally': ['error'],
 
   // https://eslint.org/docs/latest/rules/no-unsafe-negation
   'no-unsafe-negation': ['warn', { enforceForOrderingRelations: true }],

@@ -22,26 +22,17 @@ module.exports = {
   // https://eslint.org/docs/latest/rules/init-declarations
   'init-declarations': ['warn', 'always'],
 
-  // https://eslint.org/docs/latest/rules/no-delete-var
-  'no-delete-var': ['warn'],
-
   // https://eslint.org/docs/latest/rules/no-multi-assign
   'no-multi-assign': ['error'],
 
   // https://eslint.org/docs/latest/rules/no-param-reassign
   'no-param-reassign': ['error'],
 
-  // https://eslint.org/docs/latest/rules/no-redeclare
-  'no-redeclare': ['error'],
-
   // https://eslint.org/docs/latest/rules/no-return-assign
   'no-return-assign': ['error'],
 
   // https://eslint.org/docs/latest/rules/no-shadow
   'no-shadow': ['warn'],
-
-  // https://eslint.org/docs/latest/rules/no-shadow-restricted-names
-  'no-shadow-restricted-names': ['error'],
 
   // https://eslint.org/docs/latest/rules/no-var
   'no-var': ['warn'],

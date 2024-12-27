@@ -4,7 +4,7 @@ const variableRules = require('./rules/variables');
 
 const eslintJsConfig = require('@eslint/js');
 
-/** @type {import("eslint").Linter.FlatConfig[]} */
+/** @type {import("eslint").Linter.Config[]} */
 module.exports = [
   eslintJsConfig.configs.recommended,
 
@@ -17,8 +17,8 @@ module.exports = [
   },
 
   {
-    // disable init-declarations rule in test files for convenience
+    // disable rules in test files for convenience
     files: ['**/spec.js', '**/*.test.js'],
-    rules: { 'init-declarations': 'off' },
+    rules: { 'init-declarations': 'off', 'max-classes-per-file': 'off' },
   },
 ];
