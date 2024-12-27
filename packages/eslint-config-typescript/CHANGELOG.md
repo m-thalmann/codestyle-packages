@@ -1,3 +1,9 @@
+## 0.2.1 (2024-12-27)
+
+### 🩹 Fixes
+
+- **eslint:** fix deprecated, changed and removed rules ([19b3b99](https://github.com/m-thalmann/codestyle-packages/commit/19b3b99))
+
 ## 0.2.0 (2024-12-27)
 
 ### 🚀 Features

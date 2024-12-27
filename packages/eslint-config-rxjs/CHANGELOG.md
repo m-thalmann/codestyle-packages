@@ -1,3 +1,13 @@
+## 0.3.1 (2024-12-27)
+
+### 🩹 Fixes
+
+- **eslint:** fix deprecated, changed and removed rules ([19b3b99](https://github.com/m-thalmann/codestyle-packages/commit/19b3b99))
+
+### 🧱 Updated Dependencies
+
+- Updated eslint-config-typescript to 0.2.1
+
 ## 0.3.0 (2024-12-27)
 
 ### 🚀 Features
