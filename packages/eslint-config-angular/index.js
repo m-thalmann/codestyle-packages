@@ -9,7 +9,7 @@ const angularTemplateEslint = require('@angular-eslint/eslint-plugin-template');
 
 const angularTemplateParser = require('@angular-eslint/template-parser');
 
-/** @type {import("eslint").Linter.FlatConfig[]} */
+/** @type {import("eslint").Linter.Config[]} */
 module.exports = [
   ...typescriptConfig,
   ...rxjsConfig,

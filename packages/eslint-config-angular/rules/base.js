@@ -38,17 +38,8 @@ module.exports = {
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-host-metadata-property.md
   '@angular-eslint/no-host-metadata-property': ['error', { allowStatic: true }],
 
-  // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-input-rename.md
-  '@angular-eslint/no-input-rename': ['error'],
-
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-lifecycle-call.md
   '@angular-eslint/no-lifecycle-call': ['error'],
-
-  // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-output-rename.md
-  '@angular-eslint/no-output-rename': ['error'],
-
-  // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-output-on-prefix.md
-  '@angular-eslint/no-output-on-prefix': ['error'],
 
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-pipe-impure.md
   '@angular-eslint/no-pipe-impure': ['warn'],
@@ -59,8 +50,8 @@ module.exports = {
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-output-readonly.md
   '@angular-eslint/prefer-output-readonly': ['warn'],
 
-  // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-standalone.md
-  '@angular-eslint/prefer-standalone': ['warn'],
+  // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-signals.md
+  '@angular-eslint/prefer-signals': ['warn', { useTypeChecking: true }],
 
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/relative-url-prefix.md
   '@angular-eslint/relative-url-prefix': ['error'],
