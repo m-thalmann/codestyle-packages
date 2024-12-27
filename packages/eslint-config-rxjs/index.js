@@ -2,7 +2,11 @@ const rxjsPlugin = require('@smarttools/eslint-plugin-rxjs');
 
 /** @type {import("eslint").Linter.Config[]} */
 module.exports = [
-  rxjsPlugin.configs.recommended,
+  {
+    files: ['**/*.ts', '**/*.tsx'],
+    ...rxjsPlugin.configs.recommended,
+  },
+
   {
     files: ['**/*.ts', '**/*.tsx'],
     plugins: {

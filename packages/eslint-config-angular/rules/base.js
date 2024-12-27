@@ -35,9 +35,6 @@ module.exports = {
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-duplicates-in-metadata-arrays.md
   '@angular-eslint/no-duplicates-in-metadata-arrays': ['error'],
 
-  // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-host-metadata-property.md
-  '@angular-eslint/no-host-metadata-property': ['error', { allowStatic: true }],
-
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-lifecycle-call.md
   '@angular-eslint/no-lifecycle-call': ['error'],
 

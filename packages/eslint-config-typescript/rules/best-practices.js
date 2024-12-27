@@ -103,6 +103,9 @@ module.exports = {
   'no-empty-function': ['off'],
   '@typescript-eslint/no-empty-function': ['error'],
 
+  // https://typescript-eslint.io/rules/no-extraneous-class/
+  '@typescript-eslint/no-extraneous-class': ['off'],
+
   // https://typescript-eslint.io/rules/no-floating-promises
   '@typescript-eslint/no-floating-promises': ['off'],
 
@@ -130,16 +133,9 @@ module.exports = {
   // https://typescript-eslint.io/rules/no-misused-promises/
   '@typescript-eslint/no-misused-promises': ['warn', { checksVoidReturn: false }],
 
-  // https://typescript-eslint.io/rules/no-throw-literal/
-  'no-throw-literal': ['off'],
-  '@typescript-eslint/no-throw-literal': ['error'],
-
   // https://typescript-eslint.io/rules/no-unused-expressions/
   'no-unused-expressions': ['off'],
   '@typescript-eslint/no-unused-expressions': ['error', baseNoUnusedExpressionsConfig],
-
-  // https://typescript-eslint.io/rules/no-useless-template-literals/
-  '@typescript-eslint/no-useless-template-literals': ['error'],
 
   // https://typescript-eslint.io/rules/prefer-for-of/
   '@typescript-eslint/prefer-for-of': ['warn'],
@@ -161,6 +157,9 @@ module.exports = {
 
   // https://typescript-eslint.io/rules/require-await/
   '@typescript-eslint/require-await': ['off'],
+
+  // https://typescript-eslint.io/rules/restrict-template-expressions/
+  '@typescript-eslint/restrict-template-expressions': ['error', { allowBoolean: true, allowNumber: true }],
 
   // https://typescript-eslint.io/rules/return-await/
   'no-return-await': ['off'],

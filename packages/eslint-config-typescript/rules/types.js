@@ -3,9 +3,6 @@ module.exports = {
   // https://typescript-eslint.io/rules/array-type/
   '@typescript-eslint/array-type': ['error', { default: 'generic' }],
 
-  // https://typescript-eslint.io/rules/ban-types/
-  '@typescript-eslint/ban-types': ['error'],
-
   // https://typescript-eslint.io/rules/consistent-generic-constructors/
   '@typescript-eslint/consistent-generic-constructors': ['error', 'constructor'],
 
@@ -26,6 +23,9 @@ module.exports = {
 
   // https://typescript-eslint.io/rules/non-nullable-type-assertion-style/
   '@typescript-eslint/non-nullable-type-assertion-style': ['error'],
+
+  // https://typescript-eslint.io/rules/no-unnecessary-type-parameters/
+  '@typescript-eslint/no-unnecessary-type-parameters': ['off'],
 
   // https://typescript-eslint.io/rules/sort-type-constituents/
   '@typescript-eslint/sort-type-constituents': ['error'],
