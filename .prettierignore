@@ -1,2 +1,3 @@
 packages/**/CHANGELOG.md
 packages/**/dist
+/.nx/workspace-data
