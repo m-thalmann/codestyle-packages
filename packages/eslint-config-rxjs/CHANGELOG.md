@@ -1,3 +1,9 @@
+## 0.3.2 (2024-12-30)
+
+### 🩹 Fixes
+
+- **eslint-config-rxjs:** fix changed package structure ([3fee0bb](https://github.com/m-thalmann/codestyle-packages/commit/3fee0bb))
+
 ## 0.3.1 (2024-12-27)
 
 ### 🩹 Fixes
