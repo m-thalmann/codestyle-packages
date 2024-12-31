@@ -27,10 +27,10 @@
   },
   "devDependencies": {
     "eslint": "^9.17.0",
-    "@smarttools/eslint-plugin-rxjs": "^1.0.10"
+    "@smarttools/eslint-plugin-rxjs": "^1.0.11"
   },
   "peerDependencies": {
     "eslint": "^9.17.0",
-    "@smarttools/eslint-plugin-rxjs": "^1.0.10"
+    "@smarttools/eslint-plugin-rxjs": "^1.0.11"
   }
 }

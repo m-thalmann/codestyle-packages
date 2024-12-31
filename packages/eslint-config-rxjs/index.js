@@ -4,7 +4,7 @@ const rxjsPlugin = require('@smarttools/eslint-plugin-rxjs');
 module.exports = [
   {
     files: ['**/*.ts', '**/*.tsx'],
-    ...rxjsPlugin.default.configs.recommended,
+    ...rxjsPlugin.configs.recommended,
   },
 
   {
