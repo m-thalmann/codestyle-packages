@@ -36,9 +36,6 @@ module.exports = [
       // https://github.com/DaveMBush/eslint-plugin-rxjs/blob/main/packages/eslint-plugin-rxjs/docs/rules/no-ignored-observable.md
       'rxjs/no-ignored-observable': ['warn'],
 
-      // https://github.com/DaveMBush/eslint-plugin-rxjs/blob/main/packages/eslint-plugin-rxjs/docs/rules/no-subject-value.md
-      'rxjs/no-subject-value': ['warn'],
-
       // https://github.com/DaveMBush/eslint-plugin-rxjs/blob/main/packages/eslint-plugin-rxjs/docs/rules/no-subscribe-handlers.md
       'rxjs/no-subscribe-handlers': ['warn'],
 
