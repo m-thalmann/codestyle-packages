@@ -1,6 +1,6 @@
 {
   "name": "@m-thalmann/eslint-config-rxjs",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "A package for RxJS ESLint code style rules",
   "keywords": [
     "eslint",

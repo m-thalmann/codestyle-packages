@@ -1,3 +1,9 @@
+## 0.3.3 (2024-12-31)
+
+### 🧱 Updated Dependencies
+
+- Updated eslint-config-rxjs to 0.3.3
+
 ## 0.3.2 (2024-12-30)
 
 ### 🧱 Updated Dependencies

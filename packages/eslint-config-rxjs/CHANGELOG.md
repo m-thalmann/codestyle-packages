@@ -1,3 +1,9 @@
+## 0.3.3 (2024-12-31)
+
+### 🩹 Fixes
+
+- **eslint-config-rxjs:** revert fix to package structure ([90d52ca](https://github.com/m-thalmann/codestyle-packages/commit/90d52ca))
+
 ## 0.3.2 (2024-12-30)
 
 ### 🩹 Fixes
