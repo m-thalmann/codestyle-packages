@@ -1,3 +1,14 @@
+## 0.4.0 (2026-03-17)
+
+### 🚀 Features
+
+- **eslint-config-angular:** update Angular ESLint dependencies and add new rules ([0762757](https://github.com/m-thalmann/codestyle-packages/commit/0762757))
+
+### 🧱 Updated Dependencies
+
+- Updated eslint-config-typescript to 0.3.0
+- Updated eslint-config-rxjs to 0.4.0
+
 ## 0.3.3 (2024-12-31)
 
 ### 🧱 Updated Dependencies

@@ -1,3 +1,9 @@
+## 0.3.0 (2026-03-17)
+
+### 🚀 Features
+
+- **eslint-config-base:** update eslint and rules ([d88ebcf](https://github.com/m-thalmann/codestyle-packages/commit/d88ebcf))
+
 ## 0.2.0 (2024-12-27)
 
 ### 🚀 Features

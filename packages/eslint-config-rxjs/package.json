@@ -1,6 +1,6 @@
 {
   "name": "@m-thalmann/eslint-config-rxjs",
-  "version": "0.3.3",
+  "version": "0.4.0",
   "description": "A package for RxJS ESLint code style rules",
   "keywords": [
     "eslint",
@@ -23,7 +23,7 @@
     "build": "node esbuild.js"
   },
   "dependencies": {
-    "@m-thalmann/eslint-config-typescript": "^0.2.1"
+    "@m-thalmann/eslint-config-typescript": "^0.3.0"
   },
   "devDependencies": {
     "eslint": "^9.39.2",

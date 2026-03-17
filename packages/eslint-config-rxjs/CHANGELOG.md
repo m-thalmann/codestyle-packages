@@ -1,3 +1,17 @@
+## 0.4.0 (2026-03-17)
+
+### 🚀 Features
+
+- **eslint-config-rxjs:** allow accessing subject value ([5dad2bd](https://github.com/m-thalmann/codestyle-packages/commit/5dad2bd))
+
+### 🩹 Fixes
+
+- **eslint-config-rxjs:** update ESLint and plugin dependencies to latest versions ([90db952](https://github.com/m-thalmann/codestyle-packages/commit/90db952))
+
+### 🧱 Updated Dependencies
+
+- Updated eslint-config-typescript to 0.3.0
+
 ## 0.3.3 (2024-12-31)
 
 ### 🩹 Fixes

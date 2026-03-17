@@ -1,3 +1,13 @@
+## 0.3.0 (2026-03-17)
+
+### 🚀 Features
+
+- **eslint-config-typescript:** update ESLint rules and dependencies for improved TypeScript support ([7e87280](https://github.com/m-thalmann/codestyle-packages/commit/7e87280))
+
+### 🧱 Updated Dependencies
+
+- Updated eslint-config-base to 0.3.0
+
 ## 0.2.1 (2024-12-27)
 
 ### 🩹 Fixes
