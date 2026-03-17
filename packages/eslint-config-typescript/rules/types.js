@@ -21,22 +21,15 @@ module.exports = {
   // https://typescript-eslint.io/rules/explicit-function-return-type/
   '@typescript-eslint/explicit-function-return-type': ['error', { allowExpressions: true }],
 
+  // https://typescript-eslint.io/rules/no-non-null-assertion/
+  '@typescript-eslint/no-non-null-assertion': ['warn'],
+
   // https://typescript-eslint.io/rules/non-nullable-type-assertion-style/
   '@typescript-eslint/non-nullable-type-assertion-style': ['error'],
 
-  // https://typescript-eslint.io/rules/no-unnecessary-type-parameters/
-  '@typescript-eslint/no-unnecessary-type-parameters': ['off'],
+  // https://typescript-eslint.io/rules/prefer-reduce-type-parameter/
+  '@typescript-eslint/prefer-reduce-type-parameter': ['error'],
 
-  // https://typescript-eslint.io/rules/sort-type-constituents/
-  '@typescript-eslint/sort-type-constituents': ['error'],
-
-  // https://typescript-eslint.io/rules/typedef/
-  '@typescript-eslint/typedef': [
-    'error',
-    {
-      memberVariableDeclaration: true,
-      parameter: true,
-      propertyDeclaration: true,
-    },
-  ],
+  // https://typescript-eslint.io/rules/prefer-return-this-type/
+  '@typescript-eslint/prefer-return-this-type': ['warn'],
 };

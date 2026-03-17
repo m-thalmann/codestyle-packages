@@ -1,12 +1,7 @@
-const [
-  ,
-  {
-    rules: {
-      'no-magic-numbers': [, baseNoMagicNumbersConfig],
-      'no-unused-expressions': [, baseNoUnusedExpressionsConfig],
-    },
-  },
-] = require('@m-thalmann/eslint-config-base');
+const {
+  'no-magic-numbers': baseNoMagicNumbersConfig,
+  'no-unused-expressions': baseNoUnusedExpressionsConfig,
+} = require('../../../libs/shared/util-eslint/src/lib/shared-configs');
 
 /** @type {import("eslint").Linter.RulesRecord} */
 module.exports = {
@@ -99,12 +94,12 @@ module.exports = {
   // https://typescript-eslint.io/rules/no-confusing-void-expression/
   '@typescript-eslint/no-confusing-void-expression': ['warn', { ignoreArrowShorthand: true }],
 
+  // https://typescript-eslint.io/rules/no-deprecated/
+  '@typescript-eslint/no-deprecated': 'error',
+
   // https://typescript-eslint.io/rules/no-empty-function
   'no-empty-function': ['off'],
   '@typescript-eslint/no-empty-function': ['error'],
-
-  // https://typescript-eslint.io/rules/no-extraneous-class/
-  '@typescript-eslint/no-extraneous-class': ['off'],
 
   // https://typescript-eslint.io/rules/no-floating-promises
   '@typescript-eslint/no-floating-promises': ['off'],
@@ -112,10 +107,6 @@ module.exports = {
   // https://typescript-eslint.io/rules/no-loop-func/
   'no-loop-func': ['off'],
   '@typescript-eslint/no-loop-func': ['error'],
-
-  // https://typescript-eslint.io/rules/no-loss-of-precision/
-  'no-loss-of-precision': ['off'],
-  '@typescript-eslint/no-loss-of-precision': ['error'],
 
   // https://eslint.org/docs/latest/rules/no-magic-numbers
   'no-magic-numbers': ['off'],
@@ -133,15 +124,40 @@ module.exports = {
   // https://typescript-eslint.io/rules/no-misused-promises/
   '@typescript-eslint/no-misused-promises': ['warn', { checksVoidReturn: false }],
 
+  // https://typescript-eslint.io/rules/no-mixed-enums/
+  '@typescript-eslint/no-mixed-enums': ['warn'],
+
+  // https://typescript-eslint.io/rules/no-non-null-asserted-nullish-coalescing/
+  '@typescript-eslint/no-non-null-asserted-nullish-coalescing': ['error'],
+
+  // https://typescript-eslint.io/rules/no-unnecessary-boolean-literal-compare/
+  '@typescript-eslint/no-unnecessary-boolean-literal-compare': ['error'],
+
+  // https://typescript-eslint.io/rules/no-unnecessary-condition/
+  '@typescript-eslint/no-unnecessary-condition': ['error'],
+
+  // https://typescript-eslint.io/rules/no-unnecessary-type-conversion/
+  '@typescript-eslint/no-unnecessary-type-conversion': ['error'],
+
   // https://typescript-eslint.io/rules/no-unused-expressions/
   'no-unused-expressions': ['off'],
   '@typescript-eslint/no-unused-expressions': ['error', baseNoUnusedExpressionsConfig],
+
+  // https://typescript-eslint.io/rules/no-useless-constructor/
+  'no-useless-constructor': ['off'],
+  '@typescript-eslint/no-useless-constructor': ['warn'],
+
+  // https://typescript-eslint.io/rules/no-useless-default-assignment/
+  '@typescript-eslint/no-useless-default-assignment': ['warn'],
 
   // https://typescript-eslint.io/rules/prefer-for-of/
   '@typescript-eslint/prefer-for-of': ['warn'],
 
   // https://typescript-eslint.io/rules/prefer-includes/
   '@typescript-eslint/prefer-includes': ['warn'],
+
+  // https://typescript-eslint.io/rules/prefer-literal-enum-member/
+  '@typescript-eslint/prefer-literal-enum-member': ['error'],
 
   // https://typescript-eslint.io/rules/prefer-optional-chain/
   '@typescript-eslint/prefer-optional-chain': ['error'],
@@ -176,4 +192,7 @@ module.exports = {
 
   // https://typescript-eslint.io/rules/switch-exhaustiveness-check/
   '@typescript-eslint/switch-exhaustiveness-check': ['warn'],
+
+  // https://typescript-eslint.io/rules/unified-signatures/
+  '@typescript-eslint/unified-signatures': ['error'],
 };

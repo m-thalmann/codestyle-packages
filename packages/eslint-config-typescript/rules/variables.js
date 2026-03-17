@@ -1,11 +1,4 @@
-const [
-  ,
-  {
-    rules: {
-      'no-unused-vars': [, baseNoUnusedVarsConfig],
-    },
-  },
-] = require('@m-thalmann/eslint-config-base');
+const { 'no-unused-vars': baseNoUnusedVarsConfig } = require('../../../libs/shared/util-eslint/src/lib/shared-configs');
 
 /** @type {import("eslint").Linter.RulesRecord} */
 module.exports = {
@@ -25,7 +18,9 @@ module.exports = {
   'no-shadow': ['off'],
   '@typescript-eslint/no-shadow': ['warn'],
 
-  // TODO: add/update rule for no-unused-private-class-members when https://github.com/typescript-eslint/typescript-eslint/issues/4571 is resolved
+  // https://typescript-eslint.io/rules/no-unused-private-class-members/
+  'no-unused-private-class-members': ['off'],
+  '@typescript-eslint/no-unused-private-class-members': ['warn'],
 
   // https://typescript-eslint.io/rules/no-unused-vars/
   'no-unused-vars': ['off'],

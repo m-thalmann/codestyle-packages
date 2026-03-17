@@ -22,8 +22,8 @@ module.exports = tsEslint.config(
     },
   },
   {
-    // disable init-declarations rule in test files for convenience
+    // disable rules in test files for convenience
     files: ['**/*.spec.ts', '**/*.test.ts'],
-    rules: { '@typescript-eslint/init-declarations': 'off' },
+    rules: { '@typescript-eslint/init-declarations': ['off'], '@typescript-eslint/no-magic-numbers': ['off'] },
   },
 );
