@@ -26,11 +26,11 @@
     "@m-thalmann/eslint-config-typescript": "^0.2.1"
   },
   "devDependencies": {
-    "eslint": "^9.17.0",
-    "@smarttools/eslint-plugin-rxjs": "^1.0.11"
+    "eslint": "^9.39.2",
+    "@smarttools/eslint-plugin-rxjs": "^1.0.22"
   },
   "peerDependencies": {
-    "eslint": "^9.17.0",
-    "@smarttools/eslint-plugin-rxjs": "^1.0.11"
+    "eslint": "^9.39.2",
+    "@smarttools/eslint-plugin-rxjs": "^1.0.22"
   }
 }
