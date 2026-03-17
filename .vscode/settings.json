@@ -3,8 +3,7 @@
   "editor.formatOnPaste": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.organizeImports": "always"
-  },
-
-  "eslint.experimental.useFlatConfig": true
+    "source.organizeImports": "always",
+    "source.fixAll.eslint": "always"
+  }
 }

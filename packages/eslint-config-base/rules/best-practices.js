@@ -1,3 +1,8 @@
+const {
+  'no-magic-numbers': baseNoMagicNumbersConfig,
+  'no-unused-expressions': baseNoUnusedExpressionsConfig,
+} = require('../../../libs/shared/util-eslint/src/lib/shared-configs');
+
 /** @type {import("eslint").Linter.RulesRecord} */
 module.exports = {
   // https://eslint.org/docs/latest/rules/no-await-in-loop
@@ -19,7 +24,7 @@ module.exports = {
   curly: ['error'],
 
   // https://eslint.org/docs/latest/rules/default-case
-  'default-case': ['error'],
+  'default-case': ['warn'],
 
   // https://eslint.org/docs/latest/rules/default-case-last
   'default-case-last': ['error'],
@@ -73,17 +78,7 @@ module.exports = {
   'no-lonely-if': ['warn'],
 
   // https://eslint.org/docs/latest/rules/no-magic-numbers
-  'no-magic-numbers': [
-    'warn',
-    {
-      ignore: [-1, 0, 1, 100, 1000],
-      ignoreArrayIndexes: false,
-      ignoreDefaultValues: false,
-      ignoreClassFieldInitialValues: false,
-      enforceConst: true,
-      detectObjects: false,
-    },
-  ],
+  'no-magic-numbers': ['warn', baseNoMagicNumbersConfig],
   // https://eslint.org/docs/latest/rules/no-multi-str
   'no-multi-str': ['error'],
 
@@ -109,13 +104,7 @@ module.exports = {
   'no-unneeded-ternary': ['error'],
 
   // https://eslint.org/docs/latest/rules/no-unused-expressions
-  'no-unused-expressions': [
-    'error',
-    {
-      allowShortCircuit: false,
-      allowTernary: false,
-    },
-  ],
+  'no-unused-expressions': ['error', baseNoUnusedExpressionsConfig],
   // https://eslint.org/docs/latest/rules/no-useless-concat
   'no-useless-concat': ['error'],
 
@@ -133,9 +122,6 @@ module.exports = {
 
   // https://eslint.org/docs/latest/rules/prefer-arrow-callback
   'prefer-arrow-callback': ['error'],
-
-  // https://eslint.org/docs/latest/rules/prefer-promise-reject-errors
-  'prefer-promise-reject-errors': ['error'],
 
   // https://eslint.org/docs/latest/rules/prefer-regex-literals
   'prefer-regex-literals': ['error'],

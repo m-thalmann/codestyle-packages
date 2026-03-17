@@ -19,6 +19,11 @@ module.exports = [
   {
     // disable rules in test files for convenience
     files: ['**/spec.js', '**/*.test.js'],
-    rules: { 'init-declarations': 'off', 'max-classes-per-file': 'off' },
+    rules: {
+      'init-declarations': 'off',
+      'max-classes-per-file': 'off',
+      'max-lines': ['off'],
+      'no-magic-numbers': ['off'],
+    },
   },
 ];

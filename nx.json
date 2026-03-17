@@ -3,7 +3,7 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {},
   "release": {
-    "projects": ["*", "!codestyle-packages"],
+    "projects": ["*", "!codestyle-packages", "!shared-util-eslint"],
     "projectsRelationship": "independent",
     "releaseTagPattern": "{projectName}/{version}",
     "version": {

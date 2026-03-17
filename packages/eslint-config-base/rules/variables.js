@@ -1,17 +1,12 @@
+const { 'no-unused-vars': baseNoUnusedVarsConfig } = require('../../../libs/shared/util-eslint/src/lib/shared-configs');
+
 /** @type {import("eslint").Linter.RulesRecord} */
 module.exports = {
   // https://eslint.org/docs/latest/rules/no-unused-private-class-members
   'no-unused-private-class-members': ['warn'],
 
   // https://eslint.org/docs/latest/rules/no-unused-vars
-  'no-unused-vars': [
-    'warn',
-    {
-      vars: 'all',
-      args: 'after-used',
-      argsIgnorePattern: '^_',
-    },
-  ],
+  'no-unused-vars': ['warn', baseNoUnusedVarsConfig],
 
   // https://eslint.org/docs/latest/rules/default-param-last
   'default-param-last': ['error'],
@@ -27,9 +22,6 @@ module.exports = {
 
   // https://eslint.org/docs/latest/rules/no-param-reassign
   'no-param-reassign': ['error'],
-
-  // https://eslint.org/docs/latest/rules/no-return-assign
-  'no-return-assign': ['error'],
 
   // https://eslint.org/docs/latest/rules/no-shadow
   'no-shadow': ['warn'],
