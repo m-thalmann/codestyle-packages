@@ -27,17 +27,17 @@
     "@m-thalmann/eslint-config-typescript": "^0.2.1"
   },
   "devDependencies": {
-    "@angular-eslint/builder": "^19.0.2",
-    "@angular-eslint/eslint-plugin": "^19.0.2",
-    "@angular-eslint/eslint-plugin-template": "^19.0.2",
-    "@angular-eslint/template-parser": "^19.0.2",
-    "eslint": "^9.17.0"
+    "@angular-eslint/builder": "^21.2.0",
+    "@angular-eslint/eslint-plugin": "^21.2.0",
+    "@angular-eslint/eslint-plugin-template": "^21.2.0",
+    "@angular-eslint/template-parser": "^21.2.0",
+    "eslint": "^9.39.2"
   },
   "peerDependencies": {
-    "@angular-eslint/builder": "^19.0.2",
-    "@angular-eslint/eslint-plugin": "^19.0.2",
-    "@angular-eslint/eslint-plugin-template": "^19.0.2",
-    "@angular-eslint/template-parser": "^19.0.2",
-    "eslint": "^9.17.0"
+    "@angular-eslint/builder": "^21.2.0",
+    "@angular-eslint/eslint-plugin": "^21.2.0",
+    "@angular-eslint/eslint-plugin-template": "^21.2.0",
+    "@angular-eslint/template-parser": "^21.2.0",
+    "eslint": "^9.39.2"
   }
 }

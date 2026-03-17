@@ -6,6 +6,14 @@ module.exports = {
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/sort-lifecycle-methods.md
   '@angular-eslint/sort-lifecycle-methods': ['error'],
 
+  // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/component-class-suffix.md
+  '@angular-eslint/component-class-suffix': [
+    'error',
+    {
+      suffixes: ['Component'],
+    },
+  ],
+
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/component-selector.md
   '@angular-eslint/component-selector': [
     'error',
@@ -19,6 +27,14 @@ module.exports = {
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/contextual-decorator.md
   '@angular-eslint/contextual-decorator': ['warn'],
 
+  // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/directive-class-suffix.md
+  '@angular-eslint/directive-class-suffix': [
+    'error',
+    {
+      suffixes: ['Directive'],
+    },
+  ],
+
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/directive-selector.md
   '@angular-eslint/directive-selector': [
     'error',
@@ -29,9 +45,6 @@ module.exports = {
     },
   ],
 
-  // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-conflicting-lifecycle.md
-  '@angular-eslint/no-conflicting-lifecycle': ['error'],
-
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-duplicates-in-metadata-arrays.md
   '@angular-eslint/no-duplicates-in-metadata-arrays': ['error'],
 
@@ -41,11 +54,17 @@ module.exports = {
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-pipe-impure.md
   '@angular-eslint/no-pipe-impure': ['warn'],
 
+  // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/no-uncalled-signals.md
+  '@angular-eslint/no-uncalled-signals': ['error'],
+
+  // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-host-metadata-property.md
+  '@angular-eslint/prefer-host-metadata-property': ['warn'],
+
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-on-push-component-change-detection.md
   '@angular-eslint/prefer-on-push-component-change-detection': ['warn'],
 
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-output-readonly.md
-  '@angular-eslint/prefer-output-readonly': ['warn'],
+  '@angular-eslint/prefer-output-readonly': ['error'],
 
   // https://github.com/angular-eslint/angular-eslint/blob/main/packages/eslint-plugin/docs/rules/prefer-signals.md
   '@angular-eslint/prefer-signals': ['warn', { useTypeChecking: true }],
